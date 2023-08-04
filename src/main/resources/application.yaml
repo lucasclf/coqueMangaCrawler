@@ -1,0 +1,5 @@
+config:
+  destiny:
+    path: ../destiny
+  json:
+    name: D:\Programacao\coqueMangaCrawler\src\main\resources\mangas.json
