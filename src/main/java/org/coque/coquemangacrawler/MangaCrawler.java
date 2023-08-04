@@ -30,7 +30,7 @@ public class MangaCrawler {
         var mangas = jsonReader.toManga(new File(JSON_PATH));
         for(Manga manga : mangas){
 
-        };
+        }
     }
 /*
     private static void baixarManga(Manga manga) {

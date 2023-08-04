@@ -18,7 +18,9 @@ public class MangaList {
     public String toString(){
         StringBuilder mangasString = new StringBuilder();
         for (Manga manga : mangas){
-            mangasString.append("{" + manga.toString() + "} ");
+            mangasString.append("{")
+                    .append(manga.toString())
+                    .append("} ");
         }
 
         return mangasString.toString();

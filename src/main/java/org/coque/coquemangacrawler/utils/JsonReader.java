@@ -25,10 +25,7 @@ public class JsonReader {
         try{
             FileReader reader = new FileReader(json);
             Type mangaListType = new TypeToken<List<Manga>>() {}.getType();
-            List<Manga> mangas = gson.fromJson(reader, mangaListType);
-
-            return mangas;
-
+            return  gson.fromJson(reader, mangaListType);
         } catch (IOException ex){
             ex.printStackTrace();
         }
