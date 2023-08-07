@@ -9,9 +9,9 @@ import lombok.*;
 @ToString
 public class Manga {
 
-    public String nome;
-    public String capitulo;
-    public String origem;
-    public String prefixo;
+    public String name;
+    public String chapter;
+    public String origin;
+    public String prefix;
 
 }
